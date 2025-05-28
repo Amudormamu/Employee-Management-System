@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(image/jack-b-8Wqm1W59Baw-unsplash.jpg);
+    background-size: 100em;
+    color: #333;
+}
+
+.Container {
+    margin: 0 15px;
+}
+
+.form-box {
+
+width: 200%;
+max-width: 450px;
+padding: 30px;
+background-color:  #ffffffa6 ;
+border-radius: 10px;
+box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+
+
+
+}
+
+h2{
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+input  , select {
+    
+    width: 100%;
+    padding: 12px;
+    background: #ffffff;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    
+   
+}
+.password-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-wrapper input {
+    flex: 1;
+    padding-right: 40px; 
+  }
+  
+  .password-wrapper img {
+    position: absolute;
+    
+    right: 12px;
+    width: 24px;
+    cursor: pointer;
+  }
+  
+
+.checkbox-container {
+    display: flex;
+    justify-content: center;
+    gap: none;
+    align-items: center;
+  }
+  p2{
+    font-size: 14.5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+  
+
+
+button{
+
+    width: 100%;
+    padding: 12px;
+    background: #FF2929;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 20px;
+    transition: 0,5s;
+}
+button:hover{
+    background: #a3afab ;
+    transition: 0.5ms;
+
+}
+p {
+    font-size: 14.5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+p a{
+    color: #b2372e;
+    text-decoration: none;
+}
+p a:hover {
+    text-decoration: underline;
+    background: #a3afab ;
+}
+p1{
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.error-message{
+    padding: 12px;
+    background: #f8d7da;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #a42834;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 50px;
+    
+}
+span{
+    color: #fffb00;
+}
+.box{
+    font-size: 22px;
+}
+.box button{
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    min-height: 50vh;
+    
+}
+h1{
+    color: #fff;
+}
+.table-box{
+    width: auto;
+    max-width: auto;
+    padding: 30px;
+    background-color:  #ffffff9c ;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+table{
+    border: 1px black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    min-height: 50vh;
+    
+}
+th{
+    background-color: #a42834;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+td{
+    padding: 10px;
+    text-align: center;
+}
+tr{
+    background: #a3afab;
+}
+.action-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.action-buttons button {
+    width: auto;
+    padding: 8px 12px;
+}
+video{
+    display: flex;
+}
